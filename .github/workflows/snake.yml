@@ -1,0 +1,50 @@
+name: Refresh pastel snake
+
+on:
+  workflow_dispatch:
+  schedule:
+    # 03:17 Asia/Shanghai. GitHub may delay scheduled runs.
+    - cron: '17 19 * * *'
+  push:
+    paths:
+      - '.github/workflows/snake.yml'
+
+permissions:
+  contents: read
+
+concurrency:
+  group: pastel-snake-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  generate:
+    if: github.repository == 'Mola-maker/Mola-maker'
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: ${{ github.event.repository.default_branch }}
+
+      - name: Generate Mola-maker's live contribution snake
+        uses: Platane/snk/svg-only@v3
+        with:
+          github_user_name: Mola-maker
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          outputs: |
+            assets/snake.svg?color_snake=#dc84b4&color_dots=#eef4fc,#d9e8fa,#accbf0,#83ace0,#efa7cf
+            assets/snake-dark.svg?palette=github-dark&color_snake=#dc84b4&color_dots=#17212f,#304766,#526f9e,#82a8d7,#e8b6d1
+
+      - name: Commit updated animation
+        shell: bash
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add assets/snake.svg assets/snake-dark.svg
+          if git diff --cached --quiet; then
+            exit 0
+          fi
+          git commit -m 'chore: refresh pastel contribution snake'
+          git push origin "HEAD:${{ github.event.repository.default_branch }}"
