@@ -19,6 +19,15 @@
   <a href="https://molamaker.cn/music">🎧 Music</a>
 </p>
 
+<p align="center">
+  <a href="https://ghfind.com/u/mola-maker?ref=badge">
+    <picture>
+      <source media="(prefers-color-scheme: dark)" srcset="https://ghfind.com/api/card/mini/mola-maker?theme=dark&lang=zh" />
+      <img src="https://ghfind.com/api/card/mini/mola-maker?theme=light&lang=zh" alt="GitHub Roast 评分卡" width="440" />
+    </picture>
+  </a>
+</p>
+
 ## 👋 Somewhere between signals & systems
 
 我是 **molamaker**，吉林大学通信工程在读。白天在信号、数学和硬件之间探索，夜里把脑电波交给代码，也交给耳机。
