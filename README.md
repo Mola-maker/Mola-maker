@@ -9,7 +9,7 @@
 
 <p align="center">
   <b>吉林大学通信工程在读 · Agent Harness &amp; AI Infra 探索者</b><br />
-  ~~让字节和心跳一起跳动~~。心脏跳不动了，课太多了。夜の余白に、夢を。
+  ~~ 让字节和心跳一起跳动 ~~ 。心脏跳不动了，课太多了。夜の余白に、夢を。
 </p>
 
 <p align="center">
@@ -85,7 +85,7 @@ method       Trial → feedback → another iteration
 | **[molamaker-site](https://github.com/Mola-maker/molamaker-site)** | 我的个人工坊：项目、文字、音乐与一些尚未定型的想法。 |
 | **[layerfs](https://github.com/Ephemeral-AI-Lab/layerfs.git)** | 维护layerfsxmagpie的插件 |
 
-##In Progress
+## In Progress
 | mola-search | mola-harness | mola-cli |
 
 More experiments: **[offline skills & loops](https://github.com/Mola-maker/astrbot_plugin_offline_dev)** · **[MathModel](https://github.com/Mola-maker/-MathModel)** · **[learning notes](https://github.com/Mola-maker/Machine_Learning_Note)**
@@ -105,7 +105,6 @@ More experiments: **[offline skills & loops](https://github.com/Mola-maker/astrb
 ## 🌙 After the terminal
 
 ZUTOMAYO、椎名林檎、EGOIST；长跑、羽毛球；装机、拆电器，以及偶尔的恐怖游戏。
-
 在试错里前进：做出来、看见问题，再把它改好。也可以把耳机分你一半，喵。
 
 ---
