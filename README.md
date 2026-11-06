@@ -9,7 +9,7 @@
 
 <p align="center">
   <b>吉林大学通信工程在读 · Agent Harness &amp; AI Infra 探索者</b><br />
-  让字节和心跳一起跳动。夜の余白に、夢を。
+  ~~让字节和心跳一起跳动~~。心脏跳不动了，课太多了。夜の余白に、夢を。
 </p>
 
 <p align="center">
@@ -30,7 +30,7 @@
 
 ## 👋 Somewhere between signals & systems
 
-我是 **molamaker**，吉林大学通信工程在读。白天在信号、数学和硬件之间探索，夜里把脑电波交给代码，也交给耳机。
+我是 **molamaker**，吉林大学通信工程在读。白天在信号、数学和硬件之间探索，夜里把脑电波交给代码，也交给耳机。骗你们的啊，晚上哪里有时间时间睡觉
 
 我关注 **Agentic Harnessing、AI Infra 和数学工具**：让模型接入真实工具，让抽象想法变成可操作的界面，也继续拓宽算力、内存和通信带宽背后的系统边界。
 
@@ -84,6 +84,9 @@ method       Trial → feedback → another iteration
 | **[Nanodot](https://github.com/Mola-maker/nanodot)** | 基于 nanoMuse 的个人 Agent 衍生项目，探索自己的角色与跨设备体验。 |
 | **[molamaker-site](https://github.com/Mola-maker/molamaker-site)** | 我的个人工坊：项目、文字、音乐与一些尚未定型的想法。 |
 | **[layerfs](https://github.com/Ephemeral-AI-Lab/layerfs.git)** | 维护layerfsxmagpie的插件 |
+
+##In Progress
+| mola-search | mola-harness | mola-cli |
 
 More experiments: **[offline skills & loops](https://github.com/Mola-maker/astrbot_plugin_offline_dev)** · **[MathModel](https://github.com/Mola-maker/-MathModel)** · **[learning notes](https://github.com/Mola-maker/Machine_Learning_Note)**
 
